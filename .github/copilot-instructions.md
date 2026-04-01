@@ -1,5 +1,8 @@
 # Project Guidelines
 
+## Workflow
+- **Small Verifiable Steps**: Always work in small, verifiable steps. Make incremental changes, test or verify them, and commit frequently.
+
 ## Conventions
 - **Commits**: Always use [Conventional Commits](https://www.conventionalcommits.org/) format when writing commit messages or executing git commits. Examples include:
   - `feat: add new feature`
