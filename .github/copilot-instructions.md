@@ -19,3 +19,7 @@
 ## Imports
 - Always use **absolute imports** (proper names) starting with the package name `peda` instead of relative imports.
 - Example: `from peda.models import Event` instead of `from .models import Event`.
+
+## Linting and Type Checking
+- **Tooling**: We use `ruff` for linting/formatting and `mypy` for static type checking.
+- **Commands**: Run `uv run ruff check` to lint, `uv run ruff format` to format, and `uv run mypy .` for type checking. Ensure code passes these checks before committing.
